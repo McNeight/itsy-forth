@@ -1,7 +1,7 @@
 itsy-linux
 ==========
 
-Linux port of itsy forth by John Metcalf
+Unix (Linux & MacOS X) port of itsy forth by John Metcalf
 
 John Metcalf (http://www.retroprogramming.com/) implemented minimal forth system:
 <ul>
@@ -11,11 +11,14 @@ John Metcalf (http://www.retroprogramming.com/) implemented minimal forth system
 <li>http://www.retroprogramming.com/2012/06/itsy-forth-compiler.html
 <li>http://www.retroprogramming.com/2012/09/itsy-documenting-bit-twiddling-voodoo.html
 </ul>
-Resulting binary has very impressive size (978 bytes) and can be used to bootstrap complete forth system.
+Resulting binary has very impressive size (978 bytes on Linux) and can be used to bootstrap complete forthe system.
 
 Original itsy code is producing .com files and can be found in "msdos" directory of this repository.
 
-I ported it to 32-bit linux code. Sample session:
+kt97679 ported it to 32-bit linux code. 
+DylanMc ported it to MacOS (also 32 bit). Should move to any BSD pretty easily.
+
+Sample session:
 
 <pre>
 $ make

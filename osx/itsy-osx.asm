@@ -17,6 +17,7 @@
 ;   fix that 72 101 108 108 111 emit emit emit emit emit doesn't work.
 ;   build up Forth control structures - if then else, do while, etc.
 ;   implement string functions num->string, string literals, ., ."
+;   hard-code the mach-o header (as with Linux version) so ld doesn't add 8K of header.
 ;--------------------------------------------------------------------------
 ; Implementation notes:
 ;

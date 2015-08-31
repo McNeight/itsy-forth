@@ -1,17 +1,17 @@
 itsy-linux
 ==========
 
-Unix (Linux & MacOS X) port of itsy forth by John Metcalf
+Unix (Linux & MacOS X) port of itsy Forth by John Metcalf
 
 John Metcalf (http://www.retroprogramming.com/) implemented minimal forth system:
 <ul>
-<li>http://www.retroprogramming.com/2012/03/itsy-forth-1k-tiny-compiler.html
-<li>http://www.retroprogramming.com/2012/04/itsy-forth-dictionary-and-inner.html
-<li>http://www.retroprogramming.com/2012/04/itsy-forth-primitives.html
-<li>http://www.retroprogramming.com/2012/06/itsy-forth-compiler.html
-<li>http://www.retroprogramming.com/2012/09/itsy-documenting-bit-twiddling-voodoo.html
+<li>http://www.retroprogramming.com/2012/03/itsy-forth-1k-tiny-compiler.html </li>
+<li>http://www.retroprogramming.com/2012/04/itsy-forth-dictionary-and-inner.html </li>
+<li>http://www.retroprogramming.com/2012/04/itsy-forth-primitives.html </li>
+<li>http://www.retroprogramming.com/2012/06/itsy-forth-compiler.html </li>
+<li>http://www.retroprogramming.com/2012/09/itsy-documenting-bit-twiddling-voodoo.html </li>
 </ul>
-Resulting binary has very impressive size (978 bytes on Linux) and can be used to bootstrap complete forthe system.
+Resulting binary has very impressive size (978 bytes on Linux) and can be used to bootstrap a complete Forth system.
 
 Original itsy code is producing .com files and can be found in "msdos" directory of this repository.
 
@@ -31,3 +31,13 @@ Hi!
 ^C
 $ 
 </pre>
+
+TODO:
+<ul>
+<li> get string literals going </li>
+<li> implement string operations, like ." </li>
+<li> implement number->string </li>
+<li> implement . </li>
+<li> if then </li>
+<li> do .. loop </li>
+</ul>

@@ -332,7 +332,8 @@ zerob_z pop ebx
         push 1        ; stdout
         mov eax, 0x4  ; sys_write
         call _mysyscall
-aftemt  add esp, 12   ; reset stack
+aftemt  add esp, 16   ; reset stack
+        pop ebx       ; TOS goes in ebx
         jmp next
 
 ; -------------------
